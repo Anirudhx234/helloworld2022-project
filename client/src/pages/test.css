@@ -1,0 +1,33 @@
+.test {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  hr {
+    border-top: 2px dotted #3f51b5;
+  }
+
+  .maindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.uploadbutton {
+  margin-right: 2rem;
+  height: 2rem;
+  background-color: green;
+  color: white;
+  border: white;
+  border-radius: 7px;
+}
+
+.uploadbutton:hover {
+  background-color: #0aa123;
+  cursor: pointer;
+}
